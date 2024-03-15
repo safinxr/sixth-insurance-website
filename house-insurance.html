@@ -1,0 +1,640 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cheap house Insurance</title>
+    <meta
+      name="description"
+      content="Compare and check cheap price house insurance, unoccupied house insurance, holiday home insurance, home appliance and contents insurance with best companies."
+    />
+    <meta name="keywords" content="insurance house Cheap household quote" />
+    <link rel="shortcut icon" href="image/icons/fav-icon.png" />
+
+    <!--===== Style sheet =====-->
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script
+      src="https://kit.fontawesome.com/71bc8e0eff.js"
+      crossorigin="anonymous"
+    ></script>
+    <!--========= Email JS =======-->
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"
+    ></script>
+    <script src="main.js"></script>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="bg-color_black sticky top-0 z-40 bg-[#0060D6] text-white">
+      <div class="navbar max-w-6xl mx-auto">
+        <div class="navbar-start">
+          <!-- =========== Dropdown ======= -->
+          <div class="dropdown text-black">
+            <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-5 w-5"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M4 6h16M4 12h8m-8 6h16"
+                />
+              </svg>
+            </div>
+            <ul
+              tabindex="0"
+              class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
+            >
+              <li><a href="../">Home</a></li>
+              <li>
+                <a>Shop</a>
+                <ul class="p-2">
+                  <li><a href="health-insurance.html">Health Insurance</a></li>
+                  <li><a href="travel-insurance.html">Travel Insurance</a></li>
+                  <li>
+                    <a href="business-insurance.html">Business Insurance</a>
+                  </li>
+                  <li>
+                    <a href="cheap-car-automobile-quotes.html">
+                      Car Insurance</a
+                    >
+                  </li>
+                  <li><a href="house-insurance.html">House Insurance</a></li>
+                  <li>
+                    <a href="compare-life-insurance.html">Life Insurance</a>
+                  </li>
+                </ul>
+              </li>
+              <li><a href="contact.html">Contact us</a></li>
+              <li><a onclick="scrollToTarget()">Career</a></li>
+              <li>
+                <a href=""><i class="fa-solid fa-user"></i> Log-in</a>
+              </li>
+            </ul>
+          </div>
+          <!-- =========logo=======-->
+          <a class="flex items-center gap-1" href="../"
+            ><img class="w-10" src="image/icons/logo.png" alt="" />
+            <span class="uppercase font-bold text-1.5xl mt-0.5">Insurance</span>
+            <span class="uppercase font-bold text-2xl text-[#89D32A] ms-1.5"
+              >Cart</span
+            >
+          </a>
+        </div>
+
+        <!-- =========nav link=======-->
+        <div class="navbar-end hidden lg:flex">
+          <ul class="flex gap-8 items-center">
+            <li>
+              <a href="../" class="nav-link duration-500">Home</a>
+            </li>
+
+            <li class="dropdown">
+              <a href="" class="nav-link duration-500">Services</a>
+              <ul class="dropdown-menu text-black">
+                <li><a href="health-insurance.html">Health Insurance</a></li>
+                <li><a href="travel-insurance.html">Travel Insurance</a></li>
+                <li>
+                  <a href="business-insurance.html">Business Insurance</a>
+                </li>
+                <li>
+                  <a href="cheap-car-automobile-quotes.html"> Car Insurance</a>
+                </li>
+                <li><a href="house-insurance.html">House Insurance</a></li>
+                <li>
+                  <a href="compare-life-insurance.html">Life Insurance</a>
+                </li>
+              </ul>
+            </li>
+
+            <li>
+              <a href="contact.html" class="nav-link duration-500"
+                >Contact us</a
+              >
+            </li>
+
+            <li>
+              <a
+                onclick="scrollToTarget()"
+                class="nav-link duration-500 cursor-pointer"
+                >Career</a
+              >
+            </li>
+
+            <li>
+              <a href="" class="nav-link duration-500"
+                ><i class="fa-solid fa-user"></i> Log-in</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!--  Hero Section  -->
+    <header
+      style="background-image: url('image/house-insurance.jpg')"
+      class="bg-cover bg-black bg-no-repeat bg-blend-overlay bg-opacity-50 bg-center mb-16 lg:mb-28"
+    >
+      <div class="max-w-6xl mx-auto px-3 md:px-7 lg:px-0">
+        <div class="text-white py-24 lg:w-2/3 mx-auto">
+          <h1
+            class="text-3xl md:text-[55px] font-bold leading-[1.3] text-center"
+          >
+            Compare and Save on House Insurance
+          </h1>
+          <p class="mt-4 md:mt-6 text-center">
+            Compare House Insurance Policies Today! Discover the Perfect Coverage at the Best Price, Safeguarding Your Home, Assets, and Financial Security for the Long Term.
+          </p>
+
+          <div class="flex justify-center">
+            <button
+              class="px-8 py-2.5 mt-4 md:mt-6 bg-[#89D32A] text-white font-semibold rounded-full"
+            >
+              Get A Quote
+            </button>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!--===== body =====-->
+    <main
+      class="max-w-7xl mx-auto px-3 md:px-7 lg:px-2 flex flex-col-reverse lg:flex-row-reverse gap-6"
+    >
+      <!-- ========== Sticky section ======== -->
+      <section>
+        <div
+          class="md:w-96 lg:w-64 bg-[#89D32A] p-6 lg:p-4 rounded-lg sw-one sticky top-36 mx-auto"
+        >
+          <h2 class="text-xl font-bold text-white text-center">Get Quote</h2>
+          <form class="mt-6 lg:mt-3">
+            <input
+              class="outline-none px-2 rounded py-1.5 lg:py-0.5 w-full"
+              type="text"
+              placeholder="Name"
+            />
+
+            <input
+              class="outline-none px-2 rounded py-1.5 lg:py-0.5 w-full my-4"
+              type="email"
+              placeholder="Email"
+            />
+
+            <input
+              class="outline-none px-2 rounded py-1.5 lg:py-0.5 w-full"
+              type="number"
+              placeholder="Phone number"
+            />
+
+            <select
+              class="outline-none px-2 rounded py-1.5 lg:py-0.5 w-full my-4"
+            >
+              <option disabled selected>Select Budget</option>
+              <option>USD 2000 - USD 5000</option>
+              <option>USD 5000 - USD 10000</option>
+              <option>USD 10000 - USD 20000</option>
+              <option>USD 20000 - USD 40000</option>
+              <option>USD 40000 - USD 60000</option>
+              <option>USD 60000 - USD 90000</option>
+              <option>USD 90000 - USD 130000</option>
+              <option>USD 130000 - USD 200000</option>
+            </select>
+
+            <textarea
+              class="outline-none px-2 rounded py-0.5 w-full"
+              placeholder="message"
+              rows="3"
+            ></textarea>
+            <button
+              class="bg-white px-6 mt-2 py-2 lg:py-1 rounded-md w-full font-medium"
+            >
+              Submit
+            </button>
+          </form>
+        </div>
+      </section>
+
+      <!-- ========Main section======= -->
+      <section>
+        <!-- ========Text section========== -->
+        <section class=" mb-16 lg:mb-0">
+          <div class="text-lg font-medium text-gray-700 text-justify">
+            <h2 class="text-3xl md:text-4xl text-start font-bold text-black">
+              Secure Your Home with Comprehensive House Insurance
+            </h2>
+            <p class="mt-6">
+              Welcome to Insurance Cart, your trusted partner in protecting your most valuable asset: your home. House insurance, also known as homeowners insurance, is essential for safeguarding your property and belongings against unexpected events such as natural disasters, theft, and accidents. At Insurance Cart, we understand the importance of finding the right coverage to suit your needs and provide you with peace of mind.
+            </p>
+          </div>
+
+          <div class="text-lg font-medium text-gray-700 text-justify mt-16">
+            <h2 class="text-3xl md:text-4xl text-start font-bold text-black">
+              Why Choose Insurance Cart for Your House Insurance Needs?
+            </h2>
+
+            <ul class="list-disc ms-6 mt-6">
+              <li>
+                Tailored Coverage Options: We offer a variety of house insurance policies tailored to your specific needs and circumstances. Whether you own a house, condominium, or rental property, we have coverage options designed to protect your investment and provide financial security for you and your family.
+              </li>
+              <li>
+                Comprehensive Protection: Our house insurance policies provide coverage for a wide range of risks, including damage to your home's structure, personal property, liability protection, and additional living expenses in the event of a covered loss. With our comprehensive coverage options, you can rest assured that your home and belongings are protected against unforeseen events.
+              </li>
+              <li>
+                Competitive Pricing: We understand the importance of finding affordable insurance coverage without sacrificing quality. That's why we work with a network of trusted insurance providers to offer competitive pricing and flexible payment options, ensuring that you get the coverage you need at a price you can afford.
+              </li>
+
+            </ul>
+          </div>
+
+          <div class="text-lg font-medium text-gray-700 text-justify mt-16">
+            <h2 class="text-3xl md:text-4xl text-start font-bold text-black">
+              Our House Insurance Coverage Options Include:
+            </h2>
+
+            <ul class="list-disc ms-6 mt-6">
+              <li>
+                Dwelling Coverage: Protection for your home's structure against covered perils such as fire, windstorm, hail, and vandalism.
+              </li>
+              <li>
+                Personal Property Coverage: Coverage for your belongings, including furniture, clothing, electronics, and other personal items, against theft, loss, or damage.
+              </li>
+              <li>
+                Liability Protection: Protection against lawsuits for bodily injury or property damage that you or your family members may cause to others.
+              </li>
+              <li>
+                Additional Living Expenses: Coverage for temporary living expenses if your home becomes uninhabitable due to a covered loss, such as hotel bills, restaurant meals, and rental expenses.
+              </li>
+
+            </ul>
+          </div>
+
+          <div class="text-lg font-medium text-gray-700 text-justify mt-16">
+            <h2 class="text-3xl md:text-4xl text-start font-bold text-black">
+             Do I need home Insurance?
+            </h2>
+            <p class="mt-6">
+             Before we get into the nitty-gritty of all your home insurance questions, let's start off by saying we strongly recommend that you have home insurance, simply for all the value it offers — even if home insurance isn't mandated by law the same way that car insurance is. Keep in mind that if you're looking to purchase a home, or if you're a homeowner that has applied for a mortgage, your lender will likely require you to purchase home insurance first anyways. Having home insurance can protect you from having to pay a large lump sum to repair damages to your property and personal belongings if something happens to or in your home. So, although home insurance isn’t necessarily a requirement, it definitely plays a crucial role in protecting what may be your greatest asset in Dubai, UAE, United Arab Emirates, Abu Dhabi, Sharjah, Al Ain, Ajman, Ras Al Khaimah, Fujairah, or Umm Al Quwain.
+            </p>
+          </div>
+
+          <div class="text-lg font-medium text-gray-700 text-justify mt-16">
+            <h2 class="text-3xl md:text-4xl text-start font-bold text-black">
+              Get Started Today
+            </h2>
+            <p class="mt-6">
+              Don't wait until it's too late. Protect your home and belongings with comprehensive house insurance coverage from Insurance Cart. Requesting a free, no-obligation quote is quick and easy. Our team is here to help you find the perfect house insurance solution to meet your needs and provide you with peace of mind for years to come.
+            </p>
+          </div>
+        </section>
+      </section>
+    </main>
+
+    <!-- career section -->
+    <section
+      id="career"
+      class="max-w-6xl mx-3 md:mx-7 lg:mx-auto my-16 lg:my-28 px-2 sw-two py-12 rounded-3xl"
+    >
+      <h2 class="text-3xl md:text-4xl font-bold md:my-4 text-center">
+        Submit Your Resume
+      </h2>
+      <form
+        id="contact-form"
+        class="py-6 px-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 font-medium roboto"
+      >
+        <!-- Name -->
+        <div class="">
+          <label class="label">
+            <span class="label-text">Name</span>
+          </label>
+          <input
+            type="text"
+            name="name"
+            placeholder="Enter your name"
+            class="input input-bordered h-10 w-full input-success text-base"
+            required
+          />
+        </div>
+        <!-- Email -->
+        <div class="">
+          <label class="label">
+            <span class="label-text">Email</span>
+          </label>
+          <input
+            type="email"
+            name="email"
+            placeholder="Enter your email"
+            class="input input-bordered h-10 w-full input-success"
+            required
+          />
+        </div>
+        <!-- Phone -->
+        <div class="">
+          <label class="label">
+            <span class="label-text">Phone Number</span>
+          </label>
+          <input
+            type="number"
+            name="phone"
+            placeholder="Enter your phone number"
+            class="input input-bordered h-10 w-full input-success"
+            required
+          />
+        </div>
+        <!-- Position Apply For  -->
+        <div class="">
+          <label class="label">
+            <span class="label-text">Position Apply For</span>
+          </label>
+          <input
+            type="text"
+            name="position"
+            placeholder="Position name"
+            class="input input-bordered h-10 w-full input-success text-base"
+            name="position"
+            required
+          />
+        </div>
+        <!-- What is your Salary expectations?  -->
+        <div class="">
+          <label class="label">
+            <span class="label-text">What is your salary expectations?</span>
+          </label>
+          <input
+            type="number"
+            name="salary"
+            placeholder="What is your salary expectations?"
+            class="input input-bordered h-10 w-full input-success"
+            required
+          />
+        </div>
+        <!-- Preferred Job Location  -->
+        <div class=" ">
+          <label class="label">
+            <span class="label-text">Preferred Job Location </span>
+          </label>
+          <select
+            class="text-base w-full h-10 border border-success px-3 rounded-lg outline-none"
+            name="location"
+            required
+          >
+            <option disabled selected>Please choose an option</option>
+            <option>Qatar</option>
+            <option>India</option>
+            <option>UAE</option>
+            <option>Saudi Arabia</option>
+            <option>Canada</option>
+          </select>
+        </div>
+        <!-- Visa Status  -->
+        <div class="">
+          <label class="label">
+            <span class="label-text">Visa Status </span>
+          </label>
+          <select
+            class="text-base w-full h-10 border border-success px-3 rounded-lg outline-none"
+            name="visaStatus"
+            required
+          >
+            <option disabled selected>Please choose an option</option>
+            <option>Employment</option>
+            <option>Spouse</option>
+            <option>Visit</option>
+            <option>Student</option>
+            <option>Citizenship</option>
+            <option>Parent sponsor</option>
+          </select>
+        </div>
+        <!-- If you an animal, which you want to be? -->
+        <div class="">
+          <label class="label">
+            <span class="label-text"
+              >If you an animal, which you want to be?</span
+            >
+          </label>
+          <input
+            type="text"
+            name="animal"
+            placeholder="Animal which matches your personality"
+            class="input input-bordered h-10 w-full input-success"
+            required
+          />
+        </div>
+        <!-- Description or Cover Letter -->
+        <div class="">
+          <label class="label">
+            <span class="label-text">Description Or Cover Letter</span>
+          </label>
+          <textarea
+            name="description"
+            rows="1"
+            class="text-base w-full h-10 border border-success px-3 rounded-lg outline-none pt-2"
+            placeholder="Description"
+            required
+          ></textarea>
+        </div>
+        <!-- Why are you leaving your current job? -->
+        <div class="">
+          <label class="label">
+            <span class="label-text"
+              >Why are you leaving your current job?</span
+            >
+          </label>
+          <textarea
+            rows="1"
+            name="leavingReason"
+            class="text-base w-full h-10 border border-success px-3 rounded-lg outline-none pt-2"
+            placeholder="Reason?"
+            required
+          ></textarea>
+        </div>
+        <!-- Why you are right candidate for this job? -->
+        <div class="">
+          <label class="label">
+            <span class="label-text"
+              >Why you are right candidate for this job?</span
+            >
+          </label>
+          <textarea
+            name="whyCandidate"
+            rows="1"
+            class="text-base w-full h-10 border border-success px-3 rounded-lg outline-none pt-2"
+            placeholder="Explain?"
+            required
+          ></textarea>
+        </div>
+        <!-- What are your weaknesses? -->
+        <div class="">
+          <label class="label">
+            <span class="label-text">What are your weaknesses?</span>
+          </label>
+          <textarea
+            name="weaknesses"
+            rows="1"
+            class="text-base w-full h-10 border border-success px-3 rounded-lg outline-none pt-2"
+            placeholder="Your weaknesses?"
+            required
+          ></textarea>
+        </div>
+        <!-- What can you do for us that others can't? -->
+        <div class="">
+          <label class="label">
+            <span class="label-text"
+              >What can you do for us that others can't?</span
+            >
+          </label>
+          <textarea
+            name="whatCanYouDo"
+            rows="1"
+            class="text-base w-full h-10 border border-success px-3 rounded-lg outline-none pt-2"
+            placeholder="Explain"
+            required
+          ></textarea>
+        </div>
+        <!-- Walk me through your resume -->
+        <div class="">
+          <label class="label">
+            <span class="label-text">Walk me through your resume</span>
+          </label>
+          <textarea
+            name="resumeSummary"
+            rows="1"
+            class="text-base w-full h-10 border border-success px-3 rounded-lg outline-none pt-2"
+            placeholder="Describe your resume"
+            required
+          ></textarea>
+        </div>
+        <!-- Attach Resume File -->
+        <div class="">
+          <label class="label">
+            <span class="label-text">Attach Resume File</span>
+          </label>
+          <input
+            type="file"
+            class="file-input file-input-bordered file-input-success w-full h-10"
+          />
+        </div>
+        <!-- Upload your Passport size picture. -->
+        <div class="">
+          <label class="label">
+            <span class="label-text">Upload your Passport size picture.</span>
+          </label>
+          <input
+            type="file"
+            class="file-input file-input-bordered file-input-success w-full h-10"
+          />
+        </div>
+        <!-- successfully message -->
+        <div class="md:col-span-2 lg:col-span-4 flex justify-center">
+          <p
+            id="toast"
+            class="duration-500 py-1.5 px-4 bg-green-400 text-white rounded-md opacity-0 absolute"
+          >
+            <i class="fa-regular fa-circle-check"></i> Career form submitted
+            successfully
+          </p>
+        </div>
+        <!-- button -->
+        <div class="md:col-span-2 lg:col-span-4 flex justify-center">
+          <button class="btn btn-success text-white text-xl px-14 mt-4">
+            <span id="btnText">Submit</span>
+            <img
+              id="btnImg"
+              class="h-8 hidden"
+              src="image/icons/spinner.gif"
+              alt=""
+            />
+          </button>
+        </div>
+      </form>
+    </section>
+
+    <!-- footer -->
+   <footer class="bg-black">
+      <div
+        class="footer py-10 text-white max-w-6xl mx-auto px-3 md:px-7 lg:px-0"
+      >
+        <nav>
+          <header class="footer-title">Shop</header>
+          <a
+            href="http://insurancecart.co.in/health-insurance"
+            class="link link-hover"
+            >Health Insurance</a
+          >
+          <a
+            href="http://insurancecart.co.in/travel-insurance"
+            class="link link-hover"
+            >Travel Insurance</a
+          >
+          <a
+            href="http://insurancecart.co.in/business-insurance"
+            class="link link-hover"
+            >Business Insurance</a
+          >
+          <a
+            href="http://insurancecart.co.in/cheap-car-automobile-quotes"
+            class="link link-hover"
+            >Car Insurance</a
+          >
+        </nav>
+        <nav>
+          <header class="footer-title">Other</header>
+          <a
+            href="http://insurancecart.co.in/house-insurance"
+            class="link link-hover"
+            >House Insurance</a
+          >
+          <a
+            href="http://insurancecart.co.in/compare-life-insurance"
+            class="link link-hover"
+            >Life Insurance</a
+          >
+          <a href="http://insurancecart.co.in/contact" class="link link-hover"
+            >Contact</a
+          >
+          <a href="http://insurancecart.co.in/" class="link link-hover">Home</a>
+        </nav>
+        <nav>
+          <header class="footer-title">Legal</header>
+          <a class="link link-hover">Terms of use</a>
+          <a class="link link-hover">Privacy policy</a>
+          <a class="link link-hover">Cookie policy</a>
+        </nav>
+      </div>
+      <hr class=" " />
+      <div
+        class="footer py-4 text-white max-w-6xl mx-auto px-3 md:px-7 lg:px-0"
+      >
+        <aside class="items-center grid-flow-col">
+          <img class="w-12" src="image/icons/logo.png" alt="" />
+          <p>Insurance Cart. <br />&copy; 2024 All rights reserved.</p>
+        </aside>
+        <nav
+          class="grid-flow-col gap-6 md:place-self-center md:justify-self-end"
+        >
+          <a class="cursor-pointer" href=""
+            ><i class="fa-brands fa-facebook-f text-3xl"></i
+          ></a>
+          <a class="cursor-pointer" href=""
+            ><i class="fa-brands fa-x-twitter text-3xl"></i
+          ></a>
+          <a class="cursor-pointer" href=""
+            ><i class="fa-brands fa-whatsapp text-3xl"></i
+          ></a>
+        </nav>
+      </div>
+    </footer>
+  </body>
+</html>
