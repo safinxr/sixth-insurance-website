@@ -6,21 +6,6 @@
     <title>Contact Us</title>
     <link rel="shortcut icon" href="image/icons/fav-icon.png" />
 
-    <!-- Google SEO -->
-    <script
-      async
-      src="https://www.googletagmanager.com/gtag/js?id=G-N7820NB8JB"
-    ></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag() {
-        dataLayer.push(arguments);
-      }
-      gtag("js", new Date());
-
-      gtag("config", "G-N7820NB8JB");
-    </script>
-
     <!--===== Style sheet =====-->
     <link rel="stylesheet" href="style.css" />
     <link
@@ -42,7 +27,7 @@
   </head>
   <body>
     <!-- Navbar -->
-    <nav class="bg-color_black sticky top-0 z-40 bg-[#0060D6] text-white">
+    <nav class="bg-color_black sticky top-0 z-40 bg-white shadow-lg">
       <div class="navbar max-w-6xl mx-auto">
         <div class="navbar-start">
           <!-- =========== Dropdown ======= -->
@@ -97,10 +82,10 @@
           <!-- =========logo=======-->
           <a class="flex items-center gap-1" href="../"
             ><img class="w-10" src="image/icons/logo.png" alt="" />
-            <span class="uppercase font-bold text-1.5xl mt-0.5">Insurance</span>
-            <span class="uppercase font-bold text-2xl text-[#89D32A] ms-1.5"
-              >Cart</span
+            <span class="uppercase font-bold text-2xl mt-0.5 text-[#018AFE]"
+              >GO</span
             >
+            <span class="uppercase font-bold">INSURANCE</span>
           </a>
         </div>
 
@@ -144,7 +129,7 @@
             </li>
 
             <li>
-              <a href="" class="nav-link duration-500"
+              <a href="" class="nav-link duration-500 text-[#018AFE]"
                 ><i class="fa-solid fa-user"></i> Log-in</a
               >
             </li>
@@ -154,40 +139,52 @@
     </nav>
 
     <!--  Hero Section  -->
-    <header
-      style="background-image: url('image/contact-us.jpg')"
-      class="bg-cover bg-black bg-no-repeat bg-blend-overlay bg-opacity-50 bg-center mb-16 lg:mb-28"
-    >
-      <div class="max-w-6xl mx-auto px-3 md:px-7 lg:px-0">
-        <div class="text-white py-24 lg:w-2/3 mx-auto">
-          <h1
-            class="text-3xl md:text-[55px] font-bold leading-[1.3] text-center"
-          >
-            Contact Us for Personalized Insurance Solutions
-          </h1>
-          <p class="mt-4 md:mt-6 text-center">
-            Welcome to Insurance Cart, where your peace of mind is our priority. Whether you're seeking coverage for your home, vehicle, or business, our dedicated team is here to assist you every step of the way. Have questions about our insurance products or services? Need to file a claim or update your policy? Our experienced agents are just a call or click away.
-          </p>
-
-          <div class="flex justify-center">
-            <button
-              class="px-8 py-2.5 mt-4 md:mt-6 bg-[#89D32A] text-white font-semibold rounded-full"
+    <header>
+      <section
+        style="background-image: url(image/contact-us.jpg)"
+        class="bg-no-repeat lg:h-[95vh] flex items-center bg-black bg-blend-overlay bg-opacity-60 bg-center lg:bg-top"
+      >
+        <div class="max-w-6xl mx-auto px-3 md:px-7 lg:px-0 py-20">
+          <div class="text-white mb-6 lg:w-3/5">
+            <a
+              class="text-sm font-medium px-6 py-1.5 bg-[#018AFE] rounded-full text-white"
+              href=""
+              >Contact us</a
             >
-              Get A Quote
-            </button>
+            <h1
+              class="text-4xl md:text-5xl md:text-start font-bold md:leading-[1.4] mt-6"
+            >
+              Contact Us for Personalized Insurance Solutions
+            </h1>
+            <p class="text-justify mt-4 md:mt-6">
+              Welcome to Go Insurance, where your peace of mind is our priority.
+              Whether you're seeking coverage for your home, vehicle, or
+              business, our dedicated team is here to assist you every step of
+              the way. Have questions about our insurance products or services?
+              Need to file a claim or update your policy? Our experienced agents
+              are just a call or click away.
+            </p>
+
+            <div class="flex justify-center md:justify-start">
+              <button
+                class="px-8 py-3 mt-6 md:mt-8 bg-[#018AFE] text-white font-semibold rounded-lg"
+              >
+                Get A Quote
+              </button>
+            </div>
           </div>
         </div>
-      </div>
+      </section>
     </header>
 
     <!--===== body =====-->
     <main
-      class="max-w-7xl mx-auto px-3 md:px-7 lg:px-2 flex flex-col-reverse lg:flex-row-reverse gap-6"
+      class="max-w-7xl mx-auto px-3 md:px-7 lg:px-2 flex flex-col-reverse lg:flex-row-reverse gap-6 mt-16 md:mt-24"
     >
       <!-- ========== Sticky section ======== -->
       <section>
         <div
-          class="md:w-96 lg:w-64 bg-[#89D32A] p-6 lg:p-4 rounded-lg sw-one sticky top-36 mx-auto"
+          class="md:w-96 lg:w-64 bg-[#018AFE] p-6 lg:p-4 rounded-lg sw-one sticky top-36 mx-auto"
         >
           <h2 class="text-xl font-bold text-white text-center">Get Quote</h2>
           <form class="mt-6 lg:mt-3">
@@ -239,29 +236,33 @@
 
       <!-- ========Main section======= -->
       <section>
-        <!-- ========Text section========== -->
+        <!-- ========Input section========== -->
         <section class="mb-16 lg:mb-0">
           <div class="grid grid-cols-10 gap-8">
             <div
               class="col-span-10 lg:col-span-4 flex flex-col gap-8 sw-two rounded-lg px-8 py-12"
             >
               <div class="flex gap-4 items-center">
-                <i class="fa-solid fa-phone bg-[#89D32A] p-3 rounded-lg"></i>
+                <i
+                  class="fa-solid fa-phone bg-[#018AFE] text-white p-3 rounded-lg"
+                ></i>
                 <p class="text-xl">+0545456565</p>
               </div>
               <div class="flex gap-4 items-center">
                 <i
-                  class="fa-brands fa-square-whatsapp bg-[#89D32A] p-3 rounded-lg"
+                  class="fa-brands fa-square-whatsapp bg-[#018AFE] text-white p-3 rounded-lg"
                 ></i>
                 <p class="text-xl">WhatsApp</p>
               </div>
               <div class="flex gap-4 items-center">
-                <i class="fa-solid fa-envelope bg-[#89D32A] p-3 rounded-lg"></i>
+                <i
+                  class="fa-solid fa-envelope bg-[#018AFE] text-white p-3 rounded-lg"
+                ></i>
                 <p class="text-xl">Info@goinsurance.ae</p>
               </div>
               <div class="flex gap-4 items-center">
                 <i
-                  class="fa-solid fa-location-dot bg-[#89D32A] p-3 rounded-lg"
+                  class="fa-solid fa-location-dot bg-[#018AFE] text-white p-3 rounded-lg"
                 ></i>
                 <p class="text-xl">
                   Level- 26, Dubai World Trade Centre Tower, Sheikh Rashid
@@ -278,7 +279,7 @@
                     <input
                       type="radio"
                       name="radio-10"
-                      class="radio radio-success radio-sm"
+                      class="radio radio-info radio-sm"
                       checked
                     />
                     <span class="label-text ms-4">Support</span>
@@ -289,7 +290,7 @@
                     <input
                       type="radio"
                       name="radio-10"
-                      class="radio radio-success radio-sm"
+                      class="radio radio-info radio-sm"
                       checked
                     />
                     <span class="label-text ms-4">Information</span>
@@ -302,12 +303,12 @@
                   type="text"
                   name="subject"
                   placeholder="Subject"
-                  class="col-span-2 md:col-span-1 input input-bordered h-10 w-full input-success text-base"
+                  class="col-span-2 md:col-span-1 input input-bordered h-10 w-full input-info text-base"
                   required
                 />
 
                 <textarea
-                  class="col-span-2 md:col-span-1 textarea textarea-success md:row-span-3"
+                  class="col-span-2 md:col-span-1 textarea textarea-info md:row-span-3"
                   placeholder="message..."
                 ></textarea>
 
@@ -315,7 +316,7 @@
                   type="text"
                   name="name"
                   placeholder="Name"
-                  class="col-span-2 md:col-span-1 input input-bordered h-10 w-full input-success text-base"
+                  class="col-span-2 md:col-span-1 input input-bordered h-10 w-full input-info text-base"
                   required
                 />
 
@@ -323,11 +324,11 @@
                   type="number"
                   name="number"
                   placeholder="Number"
-                  class="col-span-2 md:col-span-1 input input-bordered h-10 w-full input-success text-base"
+                  class="col-span-2 md:col-span-1 input input-bordered h-10 w-full input-info text-base"
                   required
                 />
                 <div class="col-span-2 flex justify-center md:justify-end">
-                  <button class="bg-[#89D32A] px-6 py-1.5 rounded-lg">
+                  <button class="bg-[#018AFE] px-6 py-1.5 rounded-lg">
                     Submit
                   </button>
                 </div>
@@ -359,7 +360,7 @@
             type="text"
             name="name"
             placeholder="Enter your name"
-            class="input input-bordered h-10 w-full input-success text-base"
+            class="input input-bordered h-10 w-full input-info text-base"
             required
           />
         </div>
@@ -372,7 +373,7 @@
             type="email"
             name="email"
             placeholder="Enter your email"
-            class="input input-bordered h-10 w-full input-success"
+            class="input input-bordered h-10 w-full input-info"
             required
           />
         </div>
@@ -385,7 +386,7 @@
             type="number"
             name="phone"
             placeholder="Enter your phone number"
-            class="input input-bordered h-10 w-full input-success"
+            class="input input-bordered h-10 w-full input-info"
             required
           />
         </div>
@@ -398,7 +399,7 @@
             type="text"
             name="position"
             placeholder="Position name"
-            class="input input-bordered h-10 w-full input-success text-base"
+            class="input input-bordered h-10 w-full input-info text-base"
             name="position"
             required
           />
@@ -412,7 +413,7 @@
             type="number"
             name="salary"
             placeholder="What is your salary expectations?"
-            class="input input-bordered h-10 w-full input-success"
+            class="input input-bordered h-10 w-full input-info"
             required
           />
         </div>
@@ -422,7 +423,7 @@
             <span class="label-text">Preferred Job Location </span>
           </label>
           <select
-            class="text-base w-full h-10 border border-success px-3 rounded-lg outline-none"
+            class="text-base w-full h-10 border border-info px-3 rounded-lg outline-none"
             name="location"
             required
           >
@@ -440,7 +441,7 @@
             <span class="label-text">Visa Status </span>
           </label>
           <select
-            class="text-base w-full h-10 border border-success px-3 rounded-lg outline-none"
+            class="text-base w-full h-10 border border-info px-3 rounded-lg outline-none"
             name="visaStatus"
             required
           >
@@ -464,7 +465,7 @@
             type="text"
             name="animal"
             placeholder="Animal which matches your personality"
-            class="input input-bordered h-10 w-full input-success"
+            class="input input-bordered h-10 w-full input-info"
             required
           />
         </div>
@@ -476,7 +477,7 @@
           <textarea
             name="description"
             rows="1"
-            class="text-base w-full h-10 border border-success px-3 rounded-lg outline-none pt-2"
+            class="text-base w-full h-10 border border-info px-3 rounded-lg outline-none pt-2"
             placeholder="Description"
             required
           ></textarea>
@@ -491,7 +492,7 @@
           <textarea
             rows="1"
             name="leavingReason"
-            class="text-base w-full h-10 border border-success px-3 rounded-lg outline-none pt-2"
+            class="text-base w-full h-10 border border-info px-3 rounded-lg outline-none pt-2"
             placeholder="Reason?"
             required
           ></textarea>
@@ -506,7 +507,7 @@
           <textarea
             name="whyCandidate"
             rows="1"
-            class="text-base w-full h-10 border border-success px-3 rounded-lg outline-none pt-2"
+            class="text-base w-full h-10 border border-info px-3 rounded-lg outline-none pt-2"
             placeholder="Explain?"
             required
           ></textarea>
@@ -519,7 +520,7 @@
           <textarea
             name="weaknesses"
             rows="1"
-            class="text-base w-full h-10 border border-success px-3 rounded-lg outline-none pt-2"
+            class="text-base w-full h-10 border border-info px-3 rounded-lg outline-none pt-2"
             placeholder="Your weaknesses?"
             required
           ></textarea>
@@ -534,7 +535,7 @@
           <textarea
             name="whatCanYouDo"
             rows="1"
-            class="text-base w-full h-10 border border-success px-3 rounded-lg outline-none pt-2"
+            class="text-base w-full h-10 border border-info px-3 rounded-lg outline-none pt-2"
             placeholder="Explain"
             required
           ></textarea>
@@ -547,7 +548,7 @@
           <textarea
             name="resumeSummary"
             rows="1"
-            class="text-base w-full h-10 border border-success px-3 rounded-lg outline-none pt-2"
+            class="text-base w-full h-10 border border-info px-3 rounded-lg outline-none pt-2"
             placeholder="Describe your resume"
             required
           ></textarea>
@@ -559,7 +560,7 @@
           </label>
           <input
             type="file"
-            class="file-input file-input-bordered file-input-success w-full h-10"
+            class="file-input file-input-bordered file-input-info w-full h-10"
           />
         </div>
         <!-- Upload your Passport size picture. -->
@@ -569,7 +570,7 @@
           </label>
           <input
             type="file"
-            class="file-input file-input-bordered file-input-success w-full h-10"
+            class="file-input file-input-bordered file-input-info w-full h-10"
           />
         </div>
         <!-- successfully message -->
@@ -584,7 +585,7 @@
         </div>
         <!-- button -->
         <div class="md:col-span-2 lg:col-span-4 flex justify-center">
-          <button class="btn btn-success text-white text-xl px-14 mt-4">
+          <button class="btn btn-info text-white text-xl px-14 mt-4">
             <span id="btnText">Submit</span>
             <img
               id="btnImg"
@@ -604,43 +605,17 @@
       >
         <nav>
           <header class="footer-title">Shop</header>
-          <a
-            href="http://insurancecart.co.in/health-insurance"
-            class="link link-hover"
-            >Health Insurance</a
-          >
-          <a
-            href="http://insurancecart.co.in/travel-insurance"
-            class="link link-hover"
-            >Travel Insurance</a
-          >
-          <a
-            href="http://insurancecart.co.in/business-insurance"
-            class="link link-hover"
-            >Business Insurance</a
-          >
-          <a
-            href="http://insurancecart.co.in/cheap-car-automobile-quotes"
-            class="link link-hover"
-            >Car Insurance</a
-          >
+          <a href="" class="link link-hover">Health Insurance</a>
+          <a href="" class="link link-hover">Travel Insurance</a>
+          <a href="" class="link link-hover">Business Insurance</a>
+          <a href="" class="link link-hover">Car Insurance</a>
         </nav>
         <nav>
           <header class="footer-title">Other</header>
-          <a
-            href="http://insurancecart.co.in/house-insurance"
-            class="link link-hover"
-            >House Insurance</a
-          >
-          <a
-            href="http://insurancecart.co.in/compare-life-insurance"
-            class="link link-hover"
-            >Life Insurance</a
-          >
-          <a href="http://insurancecart.co.in/contact" class="link link-hover"
-            >Contact</a
-          >
-          <a href="http://insurancecart.co.in/" class="link link-hover">Home</a>
+          <a href="" class="link link-hover">House Insurance</a>
+          <a href="" class="link link-hover">Life Insurance</a>
+          <a href="" class="link link-hover">Contact</a>
+          <a href="" class="link link-hover">Home</a>
         </nav>
         <nav>
           <header class="footer-title">Legal</header>
@@ -649,13 +624,13 @@
           <a class="link link-hover">Cookie policy</a>
         </nav>
       </div>
-      <hr class=" " />
+      <hr />
       <div
         class="footer py-4 text-white max-w-6xl mx-auto px-3 md:px-7 lg:px-0"
       >
         <aside class="items-center grid-flow-col">
           <img class="w-12" src="image/icons/logo.png" alt="" />
-          <p>Insurance Cart. <br />&copy; 2024 All rights reserved.</p>
+          <p>GoInsurance. <br />&copy; 2024 All rights reserved.</p>
         </aside>
         <nav
           class="grid-flow-col gap-6 md:place-self-center md:justify-self-end"
